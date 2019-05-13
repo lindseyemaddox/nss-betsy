@@ -1,6 +1,6 @@
 
-import ReviewList from "./review-list"
+import reviewList from "./review-list"
 
-ReviewList()
+reviewList()
 
 export default () => console.log("product");
