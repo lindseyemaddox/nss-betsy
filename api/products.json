@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Bluetooth Banana Phone",
+      "price": "40.00",
+      "quantity": "7",
+      "image": "./img/banana-phone.png",
+      "description": "Add slapstick style to your phone with this handset worthy of a Marx Brothers gag. It connects through Bluetooth for wireless conversations that keep phone radiation away from your coconut. Just pair it with your device to receive calls and use your favorite voice assistant (like Siri) to make them. Talk for up to 10 hours with the USB-rechargeable battery and know you're helping keep the jungle green thanks to the 100% recycled plastic cover. Made in China."
+    },
+    {
+      "id": 2,
+      "title": "Lovebox Spinning Heart Messenger",
+      "price": "100.00",
+      "quantity": "19",
+      "image": "./img/heart-box.png",
+      "description": "Send heartfelt messages to loved ones—anytime, anywhere in the world—with this modern take on the classic love note. When you send a new message through the easy-to-use app, the chunky heart on the beechwood box spins to alert the recipient. Then, the object of your affection opens the box to read the sentiment on the mirrored screen inside. They can return the virtual embrace by spinning the heart to send a shower of digital hearts to the sender's screen."
+    },
+    {
+      "id": 3,
+      "title": "Gourd Amplifier",
+      "price": "100.00",
+      "quantity": "11",
+      "image": "./img/gourd-amp.png",
+      "description": "This is no garden variety amplifier. Sure, it has the workings of a standard, volume-boosting speaker, but instead of a standard plastic or metal casting, they are housed within a hollow gourd. The curvaceous shape and vibrant color transform a functional object into a playful, eye-catching work of art. The amplifier is powered by a single 9V battery, and an LED light lets you know when power is on. Handmade by Paul and Sue Bergstrom in Blairsville, Georgia."
+    }
+  ]
+}

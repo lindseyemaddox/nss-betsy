@@ -1,15 +1,15 @@
 /*
     Author: Lindsey Maddox
     Name: review-list.js
-    Purpose: get all reviews from API, then run them through review factory for output to DOM
+    Purpose: fetch reviews from API
 */
 
 import reviewFactory from "./review"
-import API from "./review-data"
+import reviewAPI from "./review-data"
 
 function reviewList() {
   document.getElementById("output").innerHTML = "";
-  API.getReviews().then(parsed => {
+  reviewAPI.getReviews().then(parsed => {
     parsed.forEach(review => {
       reviewFactory(review);
     });

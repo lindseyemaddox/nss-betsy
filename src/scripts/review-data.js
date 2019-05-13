@@ -4,13 +4,13 @@
     Purpose: fetch reviews from database
 */
 
-const baseURL = "http://localhost:8088/products";
+const baseURL = "http://localhost:8088";
 
-const API = {
-  getReviews: function () {
-    return fetch(baseURL)
+const reviewAPI = {
+  getReviews: function (productId) {
+    return fetch(`${baseURL}/reviews/?id=${productId}`)
       .then(results => results.json())
   }
 }
 
-export default API
+export default reviewAPI
