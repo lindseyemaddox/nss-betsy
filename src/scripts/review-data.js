@@ -4,7 +4,7 @@
     Purpose: fetch reviews from database
 */
 
-const baseURL = "localhost:8088/products";
+const baseURL = "http://localhost:8088/products";
 
 const API = {
   getReviews: function () {
