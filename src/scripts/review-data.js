@@ -8,7 +8,7 @@ const baseURL = "http://localhost:8088";
 
 const reviewAPI = {
   getReviews: function (productId) {
-    return fetch(`${baseURL}/reviews/?id=${productId}`)
+    return fetch(`${baseURL}/reviews/?productId=${productId}`)
       .then(results => results.json())
   }
 }
