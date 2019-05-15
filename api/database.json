@@ -25,69 +25,83 @@
       "description": "This is no garden variety amplifier. Sure, it has the workings of a standard, volume-boosting speaker, but instead of a standard plastic or metal casting, they are housed within a hollow gourd. The curvaceous shape and vibrant color transform a functional object into a playful, eye-catching work of art. The amplifier is powered by a single 9V battery, and an LED light lets you know when power is on. Handmade by Paul and Sue Bergstrom in Blairsville, Georgia."
     }
   ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Ming Wang"
+    },
+    {
+      "id": 2,
+      "name": "Wong Wang"
+    },
+    {
+      "id": 3,
+      "name": "Fang Wang"
+    }
+  ],
   "reviews": [
     {
       "productId": 1,
+      "authorId": 1,
       "id": 1,
-      "review": [
-        {
-          "id": 1,
-          "title": "Clean Banana for Dirty Santa",
-          "body": "Even though I originally bought this as a dirty santa gift, I wanted it for myself. As a high school teacher you have to get the kids attention somehow. What better way than with a Banana Phone?!"
-        },
-        {
-          "id": 2,
-          "title": "No One Has This Yet",
-          "body": "My brother needs nothing and has everything... except a banana phone! He's been using it at work and has been asked by multiple coworkers where he got it so they can get one too."
-        },
-        {
-          "id": 3,
-          "title": "Smello?",
-          "body": "My husband put the banana phone to use immediately and everyone in our family has used it. It may seem a little pricey but it's just one of those gifts that are fun and always make you smile. That smile is worth the money."
-        }
-      ]
+      "title": "Clean Banana for Dirty Santa",
+      "body": "Even though I originally bought this as a dirty santa gift, I wanted it for myself. As a high school teacher you have to get the kids attention somehow. What better way than with a Banana Phone?!"
+    },
+    {
+      "productId": 1,
+      "authorId": 2,
+      "id": 2,
+      "title": "No One Has This Yet",
+      "body": "My brother needs nothing and has everything... except a banana phone! He's been using it at work and has been asked by multiple coworkers where he got it so they can get one too."
+    },
+    {
+      "productId": 1,
+      "authorId": 3,
+      "id": 3,
+      "title": "Smello?",
+      "body": "My husband put the banana phone to use immediately and everyone in our family has used it. It may seem a little pricey but it's just one of those gifts that are fun and always make you smile. That smile is worth the money."
     },
     {
       "productId": 2,
-      "id": 2,
-      "review": [
-        {
-          "id": 1,
-          "title": "Happy Heart, Happy Life",
-          "body": "This product was everything that I had wished for! Easy plug and play! So differently adorable! Makes for a happy wife!"
-        },
-        {
-          "id": 2,
-          "title": "Goodnight My Love",
-          "body": "My daughter has the love box in her room at her fathers house. It's perfect to send little thoughtful messages before bed or before school."
-        },
-        {
-          "id": 3,
-          "title": "Love for Distant Relatives",
-          "body": "I gave it to my grandmother so we could send her sweet messages to make her smile even though she isn't tech savvy."
-        }
-      ]
+      "authorId": 3,
+      "id": 4,
+      "title": "Happy Heart, Happy Life",
+      "body": "This product was everything that I had wished for! Easy plug and play! So differently adorable! Makes for a happy wife!"
+    },
+    {
+      "productId": 2,
+      "authorId": 2,
+      "id": 5,
+      "title": "Goodnight My Love",
+      "body": "My daughter has the love box in her room at her fathers house. It's perfect to send little thoughtful messages before bed or before school."
+    },
+    {
+      "productId": 2,
+      "authorId": 1,
+      "id": 6,
+      "title": "Love for Distant Relatives",
+      "body": "I gave it to my grandmother so we could send her sweet messages to make her smile even though she isn't tech savvy."
     },
     {
       "productId": 3,
-      "id": 3,
-      "review": [
-        {
-          "id": 1,
-          "title": "A Pretty Gourd Deal",
-          "body": "I was given one of these as a gift from a friend. Its a very unique design and I am already finding it quite useful. It sounds pretty good for a gourd!!"
-        },
-        {
-          "id": 2,
-          "title": "Music Lover's Favorite Gourd",
-          "body": "I ordered this product for my sister as a birthday present. She's a guitarist and a music lover, so I knew it would be fun and useful. I couldn't help but try it out when it arrived! It's so beautiful!"
-        },
-        {
-          "id": 3,
-          "title": "Functional Conversation",
-          "body": "I love thats it's handmade. It's a great conversation piece! I love that it is so pretty and unique, and serves a functional purpose as well."
-        }
-      ]
+      "authorId": 1,
+      "id": 7,
+      "title": "A Pretty Gourd Time",
+      "body": "I was given one of these as a gift from a friend. Its a very unique design and I am already finding it quite useful. It sounds pretty good for a gourd!!"
+    },
+    {
+      "productId": 3,
+      "authorId": 3,
+      "id": 8,
+      "title": "Food Lover's Favorite Music",
+      "body": "I ordered this product for my sister as a birthday present. She's a guitarist and a music lover, so I knew it would be fun and useful. I couldn't help but try it out when it arrived! It's so beautiful!"
+    },
+    {
+      "productId": 3,
+      "authorId": 2,
+      "id": 9,
+      "title": "Garden Variety Amp",
+      "body": "I love thats it's handmade. It's a great conversation piece! I love that it is so pretty and unique, and serves a functional purpose as well."
     }
   ]
 }
