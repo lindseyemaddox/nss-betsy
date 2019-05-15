@@ -1,2 +1,16 @@
+/*
+    Author: Lindsey Maddox
+    Name: review-data.js
+    Purpose: fetch reviews from database
+*/
 
-export default () => console.log("review-data")
+const baseURL = "http://localhost:8088";
+
+const reviewAPI = {
+  getReviews: function (productId) {
+    return fetch(`${baseURL}/reviews/?productId=${productId}`)
+      .then(results => results.json())
+  }
+}
+
+export default reviewAPI

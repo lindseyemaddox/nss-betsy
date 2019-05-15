@@ -1,8 +1,20 @@
+/*
+    Author: Lindsey Maddox
+    Name: review-list.js
+    Purpose: fetch reviews from API
+*/
 
-import Review from "./review"
-import ReviewData from "./review-data"
+import reviewFactory from "./review"
+import reviewAPI from "./review-data"
 
-Review()
-ReviewData()
+function reviewList(productId) {
+  document.getElementById("output").innerHTML = "";
+  reviewAPI.getReviews(productId)
+    .then(review => {
+      review.forEach(title => {
+        reviewFactory(title)
+      });
+    });
+}
 
-export default () => console.log("review-list");
+export default reviewList

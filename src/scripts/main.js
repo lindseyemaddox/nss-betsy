@@ -1,10 +1,10 @@
 
 import Nav from "./nav"
-import ProductList from "./product-list"
+import productFactory from "./product";
 
 
 Nav()
-ProductList()
+productFactory()
 
 
 

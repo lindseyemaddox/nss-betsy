@@ -1,8 +1,19 @@
+/*
+    Author: Lindsey Maddox
+    Name: product.js
+    Purpose: accept product objects and render HTML element to DOM
+*/
 
-import Product from "./product"
-import ProductData from "./product-data"
+import productFactory from "./product"
+import productAPI from "./product-data"
 
-Product()
-ProductData()
+function productList() {
+  document.getElementById("output").innerHTML = "";
+  productAPI.getProducts().then(parsed => {
+    parsed.forEach(product => {
+      productFactory(product)
+    });
+  });
+}
 
-export default () => console.log("product-list");
+export default productList
