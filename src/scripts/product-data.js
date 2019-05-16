@@ -7,15 +7,10 @@
 const baseURL = "http://localhost:8088";
 
 const productAPI = {
-  getAllProducts: function () {
+  getProducts: function (parsed) {
     return fetch(`${baseURL}/products`)
-      .then(response => response.json());
-  },
-  getOneProduct: function (productId) {
-    return fetch(`${baseURL}/products/${productId}`)
-      .then(response => response.json()
-      );
+      .then(response => response.json(parsed));
   }
-};
+}
 
 export default productAPI
