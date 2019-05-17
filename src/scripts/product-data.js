@@ -7,9 +7,9 @@
 const baseURL = "http://localhost:8088";
 
 const productAPI = {
-  getProducts: function (parsed) {
+  getProducts: function () {
     return fetch(`${baseURL}/products`)
-      .then(response => response.json(parsed));
+      .then(response => response.json());
   }
 }
 

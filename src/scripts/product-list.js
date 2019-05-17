@@ -10,8 +10,8 @@ import productAPI from "./product-data"
 function productList() {
   document.getElementById("output").innerHTML = "";
   productAPI.getProducts().then(parsed => {
-    parsed.forEach(product => {
-      productFactory(product)
+    parsed.forEach(productObject => {
+      productFactory(productObject)
     });
   });
 }
