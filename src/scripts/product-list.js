@@ -1,7 +1,7 @@
 /*
     Author: Lindsey Maddox
     Name: product.js
-    Purpose: accept product objects and render HTML element to DOM
+    Purpose: accept product object and send through the factory
 */
 
 import productFactory from "./product"
