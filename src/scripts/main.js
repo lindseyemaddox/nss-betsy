@@ -1,10 +1,9 @@
 
-import Nav from "./nav"
-import productFactory from "./product";
+import Nav from "./nav";
+import productList from "./product-list";
 
 
-Nav()
-productFactory()
-
+Nav();
+productList();
 
 

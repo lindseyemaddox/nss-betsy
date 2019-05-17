@@ -8,9 +8,9 @@ const baseURL = "http://localhost:8088";
 
 const productAPI = {
   getProducts: function () {
-    return fetch(`${baseURL}/products`)
-      .then(response => response.json());
+    return fetch(`${baseURL}/products`).then(response => response.json());
   }
 }
+productAPI.getProducts();
 
-export default productAPI
+export default productAPI;

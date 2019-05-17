@@ -8,11 +8,9 @@ import productFactory from "./product"
 import productAPI from "./product-data"
 
 function productList() {
-  document.getElementById("output").innerHTML = "";
-  productAPI.getProducts().then(parsed => {
-    parsed.forEach(productObject => {
-      productFactory(productObject)
-    });
+  productAPI.getProducts().then(productObject => {
+    console.log(productObject);
+    productFactory(productObject);
   });
 }
 
