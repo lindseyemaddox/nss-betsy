@@ -12,26 +12,27 @@ function productFactory(productObject) {
 }
 
 function buildProductHTML(product) {
-  const output = document.getElementById("output");
+  const output = document.getElementById("product-output");
   const productCard = document.createElement("div");
 
-  // const productDetails = `
-  //   <h2>${product.title}</h2>
-  //   <p>${product.description}</p>
-  // `
-  // productCard.innerHTML = productDetails;
+  const productDetails = `
+    <h2>${product.title}</h2>
+    <p>${"Description: " + product.description}</p>
+    <p>${"Cost: $" + product.price}</p>
+  `
+  productCard.innerHTML = productDetails;
 
-  let productTitle = document.createElement("h2");
-  let productDescription = document.createElement("p");
-  let productPrice = document.createElement("p");
+  // let productTitle = document.createElement("h2");
+  // let productDescription = document.createElement("p");
+  // let productPrice = document.createElement("p");
 
-  productTitle.textContent = product.title;
-  productDescription.textContent = "Description: " + product.description;
-  productPrice.textContent = "Cost: $" + product.price;
+  // productTitle.textContent = product.title;
+  // productDescription.textContent = "Description: " + product.description;
+  // productPrice.textContent = "Cost: $" + product.price;
 
-  productCard.appendChild(productTitle);
-  productCard.appendChild(productDescription);
-  productCard.appendChild(productPrice);
+  // productCard.appendChild(productTitle);
+  // productCard.appendChild(productDescription);
+  // productCard.appendChild(productPrice);
 
   output.appendChild(productCard);
 }

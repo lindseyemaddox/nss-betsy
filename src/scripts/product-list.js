@@ -9,7 +9,6 @@ import productAPI from "./product-data"
 
 function productList() {
   productAPI.getProducts().then(productObject => {
-    console.log(productObject);
     productFactory(productObject);
   });
 }
