@@ -5,7 +5,7 @@ __pycache__
 *.pyc
 bin
 obj
-# *.db
+*.db
 *.sqlite3
 .vscode
 dist
