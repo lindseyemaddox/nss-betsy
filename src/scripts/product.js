@@ -8,11 +8,10 @@ function productFactory(productObject) {
   productObject.forEach(product => {
     buildProductHTML(product);
   });
-
 }
 
 function buildProductHTML(product) {
-  const output = document.getElementById("product-output");
+  const productOutput = document.getElementById("product-output");
   const productCard = document.createElement("div");
 
   const productDetails = `
@@ -34,7 +33,7 @@ function buildProductHTML(product) {
   // productCard.appendChild(productDescription);
   // productCard.appendChild(productPrice);
 
-  output.appendChild(productCard);
+  productOutput.appendChild(productCard);
 }
 
 export default productFactory

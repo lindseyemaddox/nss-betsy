@@ -5,14 +5,21 @@
 */
 
 function reviewFactory(reviewObject) {
-  const output = document.getElementById("output")
-  const reviewCard = document.createElement("div")
+  reviewObject.forEach(review => {
+    buildreviewHTML(review);
+  })
+}
+
+function buildreviewHTML(review) {
+  const reviewOutput = document.getElementById("review-output");
+  const reviewCard = document.createElement("div");
+
   const reviewDetails = `
-    <h3>${reviewObject}</h3>
-    <p>${reviewObject}</p>
+  <h3>${review.title}</h3>
+  <p>${review.body}</p>
   `
-  reviewCard.innerHTML = reviewDetails
-  output.appendChild(reviewCard)
+  reviewCard.innerHTML = reviewDetails;
+  reviewOutput.appendChild(reviewCard);
 }
 
 export default reviewFactory

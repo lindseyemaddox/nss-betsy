@@ -7,14 +7,10 @@
 import reviewFactory from "./review"
 import reviewAPI from "./review-data"
 
-function reviewList(productId) {
-  document.getElementById("output").innerHTML = "";
-  reviewAPI.getReviews(productId)
-    .then(review => {
-      review.forEach(title => {
-        reviewFactory(title)
-      });
-    });
+function reviewList() {
+  reviewAPI.getReviews().then(reviewObject => {
+      reviewFactory(reviewObject);
+  });
 }
 
 export default reviewList
