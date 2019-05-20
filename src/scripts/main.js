@@ -1,10 +1,10 @@
 
-import Nav from "./nav";
+import createNav from "./nav";
 import productList from "./product-list";
 import reviewList from "./review-list";
 
 
-Nav();
+createNav();
 productList();
 reviewList();
 
