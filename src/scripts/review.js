@@ -4,9 +4,12 @@
     Purpose: accept review objects and render HTML element to DOM
 */
 
+import ratingsFactory from "./ratings";
+
 function reviewFactory(reviewObject) {
   reviewObject.forEach(review => {
     buildreviewHTML(review);
+    ratingsFactory(review);
   })
 }
 

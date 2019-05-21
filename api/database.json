@@ -44,6 +44,7 @@
       "productId": 1,
       "authorId": 1,
       "id": 1,
+      "rating": 5,
       "title": "Clean Banana for Dirty Santa",
       "body": "Even though I originally bought this as a dirty santa gift, I wanted it for myself. As a high school teacher you have to get the kids attention somehow. What better way than with a Banana Phone?!"
     },
@@ -51,6 +52,7 @@
       "productId": 1,
       "authorId": 2,
       "id": 2,
+      "rating": 4,
       "title": "No One Has This Yet",
       "body": "My brother needs nothing and has everything... except a banana phone! He's been using it at work and has been asked by multiple coworkers where he got it so they can get one too."
     },
@@ -58,6 +60,7 @@
       "productId": 1,
       "authorId": 3,
       "id": 3,
+      "rating": 4.5,
       "title": "Smello?",
       "body": "My husband put the banana phone to use immediately and everyone in our family has used it. It may seem a little pricey but it's just one of those gifts that are fun and always make you smile. That smile is worth the money."
     },
@@ -65,6 +68,7 @@
       "productId": 2,
       "authorId": 3,
       "id": 4,
+      "rating": 5,
       "title": "Happy Heart, Happy Life",
       "body": "This product was everything that I had wished for! Easy plug and play! So differently adorable! Makes for a happy wife!"
     },
@@ -72,6 +76,7 @@
       "productId": 2,
       "authorId": 2,
       "id": 5,
+      "rating": 3.5,
       "title": "Goodnight My Love",
       "body": "My daughter has the love box in her room at her fathers house. It's perfect to send little thoughtful messages before bed or before school."
     },
@@ -79,6 +84,7 @@
       "productId": 2,
       "authorId": 1,
       "id": 6,
+      "rating": 4,
       "title": "Love for Distant Relatives",
       "body": "I gave it to my grandmother so we could send her sweet messages to make her smile even though she isn't tech savvy."
     },
@@ -86,6 +92,7 @@
       "productId": 3,
       "authorId": 1,
       "id": 7,
+      "rating": 4.5,
       "title": "A Pretty Gourd Time",
       "body": "I was given one of these as a gift from a friend. Its a very unique design and I am already finding it quite useful. It sounds pretty good for a gourd!!"
     },
@@ -93,6 +100,7 @@
       "productId": 3,
       "authorId": 3,
       "id": 8,
+      "rating": 4,
       "title": "Food Lover's Favorite Music",
       "body": "I ordered this product for my sister as a birthday present. She's a guitarist and a music lover, so I knew it would be fun and useful. I couldn't help but try it out when it arrived! It's so beautiful!"
     },
@@ -100,6 +108,7 @@
       "productId": 3,
       "authorId": 2,
       "id": 9,
+      "rating": 5,
       "title": "Garden Variety Amp",
       "body": "I love thats it's handmade. It's a great conversation piece! I love that it is so pretty and unique, and serves a functional purpose as well."
     }
