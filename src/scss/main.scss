@@ -1,8 +1,12 @@
+
+@import "nav";
+
 body {
   font-family: 'Lato', sans-serif
 }
 
 .container {
+  clear: both;
   margin: 0 auto;
   max-width: 1000px;
   width: 90%;
