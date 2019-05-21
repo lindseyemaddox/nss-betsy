@@ -15,8 +15,9 @@ function buildProductHTML(product) {
   const productCard = document.createElement("div");
 
   const productDetails = `
+    <img src="${product.image}" alt="image of ${product.title}"/>
     <h2>${product.title}</h2>
-    <p>${"Description: " + product.description}</p>
+    <p>${product.description}</p>
     <p>${"Cost: $" + product.price}</p>
   `
   productCard.innerHTML = productDetails;

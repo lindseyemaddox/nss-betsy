@@ -1,5 +1,6 @@
 default:
   - "eslint"
+  - "stylus"
   - "http-server"
   - "browserify"
   - "bgShell:launchAPI"
