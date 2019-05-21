@@ -1,4 +1,6 @@
 
+@import "nav";
+
 body {
   font-family: 'Lato', sans-serif
 }
@@ -8,19 +10,6 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   width: 90%;
-}
-
-h1 {
-  float: left;
-  margin: 0 auto;
-}
-
-#main-nav {
-  float: left;
-  li {
-    display: inline;
-    padding: 20px 30px;
-  }
 }
 
 #product-output {
