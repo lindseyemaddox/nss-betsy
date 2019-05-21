@@ -1,0 +1,22 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 90%;
+}
+#product-output {
+  display: flex;
+}
+#product-output div {
+  margin: 5vh 6% 0;
+  width: 30%;
+}
+#product-output div:first-child {
+  margin-left: 0;
+}
+#product-output div:last-child {
+  margin-right: 0;
+}
